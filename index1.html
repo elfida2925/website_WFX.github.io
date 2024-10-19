@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Link dan PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0D1B2A; /* Warna biru gelap */
+            color: white; /* Warna default teks */
+        }
+        header {
+            background-color: #1B263B; /* Biru lebih terang untuk header */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            background: linear-gradient(to bottom, #ffffff, #a9a9a9); /* Gradasi putih ke abu-abu */
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        header .decor-text {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            background: linear-gradient(to bottom, #ffffff, #a9a9a9); /* Gradasi putih ke abu-abu */
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #1E3A5F; /* Biru gelap yang lebih terang untuk section */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        a {
+            color: #FFD700; /* Kuning keemasan untuk tautan */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1B263B;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+        footer .decor-text {
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            font-size: 1em;
+            background: linear-gradient(to bottom, #ffffff, #a9a9a9); /* Gradasi putih ke abu-abu */
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <div class="decor-text">Wahy_fx (WFX)</div>
+    </header>
+
+    <section>
+        <h2>Tautan ke Halaman Lain</h2>
+        <p>Kunjungi halaman <a href="https://www.example.com" target="_blank">Beranda</a> untuk informasi lebih lanjut.</p>
+        <p>Lihat juga script TradingView berikut:</p>
+        <ul>
+            <li><a href="https://www.tradingview.com/script/9WWJ0z8B-Liquidity-Concepts-Wahy-fx/" target="_blank">Liquidity Concepts Wahy fx</a></li>
+            <li><a href="https://www.tradingview.com/script/FxogP4Z6-Killzones-by-Wahy-fx/" target="_blank">Killzones by Wahy fx</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Unduh PDF</h2>
+        <p>Anda dapat mengunduh PDF berikut:</p>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/18ddFgPO4cJXXKN0a11osPcBZmUFd4BBb/view?usp=drivesdk" target="_blank">Unduh PDF 1</a></li>
+            <li><a href="https://drive.google.com/file/d/1E73qCjEJdPi1EYZumNFbEVVZuh3rWcG1/view?usp=drivesdk" target="_blank">Unduh PDF 2</a></li>
+            <li><a href="file_example.pdf" download>Unduh PDF Lokal</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Website Saya</p>
+        <div class="decor-text">Wahy_fx (WFX)</div>
+    </footer>
+</body>
+</html>
